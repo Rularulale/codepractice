@@ -194,17 +194,18 @@ body {
     max-width: 88%;
     /* transform: scale(0.8); */
     padding: 10px;
+    height: 800px;
   }
   .list li{
     padding: 12px 4px 4px 4px;
   }
-
-  .list h1, .list p{
-    font-size: 20px;
-  }
   .list > ul.top h1{
     font-size: 24px;
   }
+  .list h1, .list p{
+    font-size: 20px;
+  }
+
   .list .mark h1{
     font-size: 16px;
   }
