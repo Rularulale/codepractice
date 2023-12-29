@@ -41,7 +41,7 @@ body {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 38px;
   line-height: 110%;
-  font-weight: 540;
+  font-weight: 500;
 }
 .list .mark {
   text-align: right;
@@ -198,6 +198,7 @@ body {
   }
   .list li{
     padding: 12px 4px 4px 4px;
+    margin-left: 20px;
   }
   .list > ul.top h1{
     font-size: 24px;
@@ -233,7 +234,7 @@ body {
     height: 26px;
   }
   .list .expandable-content > ul.expand_more > li{
-    width: 256px;
+    width: 270px;
     padding: 8px 40px 12px 20px;
     height: 32px;
   }
@@ -242,7 +243,7 @@ body {
   /* .expand_more{ transform: scale(0.8);} */
   .list .expandable-content .radio-button{font-size: 20px;}
   .list .expandable-content > ul:nth-last-child(2){
-    margin: 0px 14px;  
+    margin: 0px 5px;  
     border-bottom: 2px solid rgb(200, 200, 200); }
   .list .expandable-content li img{
     transform: scale(0.8);
