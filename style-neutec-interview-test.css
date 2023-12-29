@@ -57,7 +57,7 @@ body {
 .list li {
   text-align: center;
   background-color: #fff;
-  padding: 24px;
+  padding: 32px;
   margin-left: 16px;
 }
 .list .mark {
@@ -187,3 +187,62 @@ body {
 .list .button:active {
   background: #ce6e15;
 }/*# sourceMappingURL=style-neutec-interview-test.css.map */
+
+@media only screen and (max-width: 428px) {
+  .list {
+    max-width: 100%;
+    transform: scale(0.8);
+    padding: 10px;
+  }
+  .list li{
+    padding: 14px;
+  }
+
+  .list h1, .list p{
+    font-size: 24px;
+  }
+  .list .mark h1{
+    font-size: 20px;
+  }
+  .list .mark-success h1{
+    font-size: 20px;
+  }
+  .list .mark-fault h1{
+    font-size: 20px;
+  }
+  .list > ul {
+    width: 100%;
+    height: 120px;
+  }
+  .list > ul.top{height: 80px;}
+  .list .button {
+    width: 180px;
+    font-size: 24px;
+    height: 40px;
+  }
+  .list .expand-button{
+    width: 44px;
+    height: 32px;
+  }
+  .list .expandable-content > ul.expand_more > li{
+    width: 300px;
+  }
+  .list .expandable-content{ transform: scale(1);
+  max-width: 100%;}
+  /* .expand_more{ transform: scale(0.8);} */
+  .list .expandable-content .radio-button{font-size: 24px;}
+  .list .expandable-content > ul:nth-last-child(2){margin: 0;}
+  .list .expandable-content li img{
+    transform: scale(0.8);
+  }
+  .list .expandable-content .radio-button input{
+    width: 28px;
+    height: 28px;
+  }
+  .list .expandable-content > ul.expand_more > li{
+    height: 32px;
+    padding: 8px 40px 20px 20px;
+  }
+  .list .expandable-content .radio-button{padding: 0;}
+  .list .expandable-content li img{margin-top: -24px;}
+}
