@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(reset.css);
 body {
   font-family: "Roboto", sans-serif;
@@ -190,31 +189,31 @@ body {
 
 @media only screen and (max-width: 428px) {
   .list {
-    max-width: 100%;
-    transform: scale(0.8);
+    max-width: 88%;
+    /* transform: scale(0.8); */
     padding: 10px;
   }
   .list li{
-    padding: 14px;
+    padding: 12px 4px 4px 4px;
   }
 
   .list h1, .list p{
     font-size: 24px;
   }
   .list .mark h1{
-    font-size: 20px;
+    font-size: 18px;
   }
   .list .mark-success h1{
-    font-size: 20px;
+    font-size: 18px;
   }
   .list .mark-fault h1{
-    font-size: 20px;
+    font-size: 18px;
   }
   .list > ul {
     width: 100%;
     height: 120px;
   }
-  .list > ul.top{height: 80px;}
+  .list > ul.top{height: 64px;}
   .list .button {
     width: 180px;
     font-size: 24px;
@@ -225,24 +224,24 @@ body {
     height: 32px;
   }
   .list .expandable-content > ul.expand_more > li{
-    width: 300px;
+    width: 256px;
   }
   .list .expandable-content{ transform: scale(1);
   max-width: 100%;}
   /* .expand_more{ transform: scale(0.8);} */
-  .list .expandable-content .radio-button{font-size: 24px;}
-  .list .expandable-content > ul:nth-last-child(2){margin: 0;}
+  .list .expandable-content .radio-button{font-size: 20px;}
+  .list .expandable-content > ul:nth-last-child(2){margin: 0px 14px;}
   .list .expandable-content li img{
     transform: scale(0.8);
+    margin: -20px 24px;
   }
   .list .expandable-content .radio-button input{
-    width: 28px;
-    height: 28px;
+    width: 20px;
+    height: 20px;
   }
   .list .expandable-content > ul.expand_more > li{
     height: 32px;
     padding: 8px 40px 20px 20px;
   }
   .list .expandable-content .radio-button{padding: 0;}
-  .list .expandable-content li img{margin-top: -24px;}
 }
