@@ -92,15 +92,30 @@ header.header .material-symbols-outlined {
 .lights {
   fill: none;
   width: 100%;
-  stroke: #5f4c6c;
+  stroke: #a3c1cf;
   stroke-width: 2;
 }
 
 .lights #button {
   cursor: pointer;
 }
-.lights #button:hover{
-  color: #f10202;
+.start {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#notificationButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #519ad7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#notificationButton:hover {
+  background-color: #67baff;
 }
 /*  */
 footer.footer {
