@@ -1,8 +1,22 @@
-body{
-  font-family:'Roboto', sans-serif;
+@import url(reset.css);
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* background-image: url(../img/html_bg.png); */
   font-size: 18px;
   color: #333;
 }
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px auto 20px auto;
+
+}
+
 
 header.header {
   width: 100%;
@@ -22,15 +36,12 @@ header.header {
 }
 
 .header_nav_list{
-  /* display: flex;
-  padding: 13px 40px; */
+  display: flex;
+  padding: 28px 40px;
   font-size: 24px;
   justify-content: space-between;
 }
 
-.mobileheader{
-  display: none;
-}
 
 .header_nav_list_left {
   display: flex;
@@ -83,11 +94,13 @@ header.header .material-symbols-outlined {
 }
 
 
+
 /*  */
 .wrapper{
   display: block;
   margin: 120px auto;
   text-align: center;
+  height: 900px;
 }
 .lights {
   fill: none;
@@ -116,6 +129,10 @@ header.header .material-symbols-outlined {
 
 #notificationButton:hover {
   background-color: #67baff;
+}
+#notificationButton:active {
+  background-color: #316ea1;
+  border: none;
 }
 /*  */
 footer.footer {
