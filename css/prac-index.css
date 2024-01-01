@@ -138,3 +138,9 @@ footer.footer div.footer-text {
 }
 
 
+@media only screen and (max-width: 600px) {
+
+  .wrapper{
+    height: 844px;
+  }
+}
