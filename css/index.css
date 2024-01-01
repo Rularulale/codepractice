@@ -22,8 +22,8 @@ header.header {
 }
 
 .header_nav_list{
-  display: flex;
-  padding: 13px 40px;
+  /* display: flex;
+  padding: 13px 40px; */
   font-size: 24px;
   justify-content: space-between;
 }
@@ -83,7 +83,26 @@ header.header .material-symbols-outlined {
 }
 
 
+/*  */
+.wrapper{
+  display: block;
+  margin: 120px auto;
+  text-align: center;
+}
+.lights {
+  fill: none;
+  width: 100%;
+  stroke: #5f4c6c;
+  stroke-width: 2;
+}
 
+.lights #button {
+  cursor: pointer;
+}
+.lights #button:hover{
+  color: #f10202;
+}
+/*  */
 footer.footer {
   width: 100%;
   height: 56px;
