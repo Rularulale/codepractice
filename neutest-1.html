@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="./js/neutest.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="./css/neutest-1.css">
+	<title>neutec-interview-test</title>
+</head>
+<body>
+	<header class="header">
+
+		<div class="header_list">
+	
+			<div class="header_nav_list">
+	
+				<ul class="header_nav_list_left">
+					<li><a href="#">首頁</a></li>
+					<li><a href="prac-index.html">程式練習</a></li>
+				</ul>
+	
+				<ul class="header_nav_list_right">
+					<li><a href="#"><span class="material-symbols-outlined">search</span></a></li>
+	
+				</ul>
+	
+			</div>
+		</div>
+	</header>
+
+	<div class="wrapper">
+		<main class="list">
+			<ul class="top">
+			  <li>
+				<h1>跟誰收款</h1>
+			  </li>
+			</ul>
+			<ul>
+				<li>
+				  <h1>我</h1>
+				  <p>應收金額1,000,000元</p>
+				</li>
+				
+				<li class="mark"><h1>免收款</h1></li>
+			  </ul>
+			  <ul>
+				<li>
+				  <h1>我是王小明</h1>
+				  <p>應收金額1,000,000元</p>
+				</li>
+				
+				<li class="mark-success"><h1>已收款</h1></li>
+			  </ul>
+			  <ul>
+				<li>
+				  <h1>我是周大華</h1>
+				  <p>應收金額1,000,000元</p>
+				</li>
+				
+				<li class="mark-fault"><h1>未入帳</h1></li>
+				<div class="expand-button" onclick="toggleExpand()">
+					<span class="material-symbols-outlined arrow">expand_more</span>
+				  </div>
+				  
+				
+			  </ul>
+			  <div class="expandable-content" style="display: none;">
+				<ul class="expand_more">
+					<li>
+						<h1>變更收款狀態</h1>
+					</li>
+					<li>
+						<label class="radio-button">
+							<input type="radio" name="options"> 已經收款
+						</label>
+						<label class="radio-button">
+							<input type="radio" name="options"> 放棄收款
+						</label>
+					</li>
+					
+				</ul>
+				<ul class="expand_more">
+					<li>
+						<h1>通知</h1>
+					</li>
+					<li>
+						<a href="#"><img src="./img/line.png" alt=""></a>
+						<a href="#"><img src="./img/text.png" alt=""></a>
+					</li>
+				</ul>
+			  </div>
+	
+	
+			<div>
+				<button class="button">終止活動</button>
+			</div>
+	
+		  </main>
+	</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+          Copyright&copy;2023 rularulale.All right reserved.
+        </div>
+    </footer>
+
+</html>

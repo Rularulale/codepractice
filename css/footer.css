@@ -1,0 +1,30 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+
+footer.footer {
+    width: 100%;
+    background-color: #447ead;
+    font-family:'Roboto', sans-serif;
+}
+
+
+
+footer.footer div.footer_bottom {
+    font-size: 16px;
+    color: #fafafa;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media screen and (max-width:834px){
+
+    footer.footer{
+        width: 100%;
+    }
+
+
+}
