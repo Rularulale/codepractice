@@ -6,6 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flaticon@2.1.1/font/flaticon.css">
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<script src="./js/neutest-2.js"></script>
     <link rel="stylesheet" href="./css/neutest-2.css">
@@ -26,12 +27,18 @@
 				<ul class="card-title">
 					<li>
 						<label for="consolidated" class="radio-button">
-							<input type="radio" name="options" id="consolidated"> Consolidated
+							<input type="radio" name="options" id="consolidated" checked>
+							<i class="fa fa-circle-o"></i> 
+							<i class="fa fa-dot-circle-o"></i>
+							Consolidated
 						</label>
 					</li>
 					<li>
 						<label for="exchange-wise" class="radio-button">
-							<input type="radio" name="options" id="exchange-wise"> Exchange wise
+							<input type="radio" name="options" id="exchange-wise">
+							<i class="fa fa-circle-o"></i> 
+							<i class="fa fa-dot-circle-o"></i>
+							Exchange wise
 						</label>
 					</li>
 				</ul>
@@ -40,7 +47,8 @@
 			<div class="card-inside">
 				<ul class="card-date">
 					<li class="card-wicon">
-						<a href="#"><i class="fa fa-calendar"></i></a>
+						<input type="date" name="" required="">
+						<i class="fa fa-calendar"></i>
 					</li>
 					<li >
 						<h3>From date</h3>
@@ -49,7 +57,8 @@
 				</ul>
 				<ul class="card-date-2">
 					<li class="card-wicon">
-						<a href="#"><i class="fa fa-calendar"></i></a>
+						<input type="date" name="" required="">
+						<i class="fa fa-calendar"></i>
 					</li>
 					<li >
 						<h3>To date</h3>
@@ -61,7 +70,8 @@
 			<div class="card-inside">
 				<ul class="card-bottom">
 					<li class="card-wicon">
-						<img src="./img/filters.png" alt="" style="width: 32px;">
+						<a href="#"><img src="./img/filters.png" alt="" style="width: 32px;"></a>
+						
 						<p>Filter</p>
 					</li>
 					<li>

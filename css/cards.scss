@@ -58,9 +58,10 @@ body {
 }
 
 header.header {
-  background-color: $color-primary;
   width: 100%;
-  height: 64px;
+  height: 80px;
+  background-color: $color-primary;
+  z-index: 10;
   position: fixed;
   top: 0;
   left: 0;
@@ -70,6 +71,24 @@ header.header {
     max-width: 1200px;
     height: 100%;
     margin: 0 auto;
+
+    .header_nav_list {
+      padding: 24px 40px;
+      font-size: 24px;
+      list-style: none;
+      display: flex;
+
+      & > li {
+        align-self: center;
+        a {
+          text-decoration: none;
+          display: inline-block;
+          margin: auto 10px;
+          color: $color-link;
+          font-weight: 500;
+        }
+      }
+    }
   }
 }
 
@@ -121,7 +140,7 @@ a.btn-primary {
 
 footer.footer {
   width: 100%;
-  height: 40px;
+  height: 48px;
   background-color: $color-primary;
   font-family: $font-primary;
 

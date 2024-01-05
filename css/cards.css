@@ -21,9 +21,10 @@ body {
 }
 
 header.header {
-  background-color: #447ead;
   width: 100%;
-  height: 64px;
+  height: 80px;
+  background-color: #447ead;
+  z-index: 10;
   position: fixed;
   top: 0;
   left: 0;
@@ -37,6 +38,22 @@ header.header .header_list {
   max-width: 1200px;
   height: 100%;
   margin: 0 auto;
+}
+header.header .header_list .header_nav_list {
+  padding: 24px 40px;
+  font-size: 24px;
+  list-style: none;
+  display: flex;
+}
+header.header .header_list .header_nav_list > li {
+  align-self: center;
+}
+header.header .header_list .header_nav_list > li a {
+  text-decoration: none;
+  display: inline-block;
+  margin: auto 10px;
+  color: #fafafa;
+  font-weight: 500;
 }
 
 .card {
@@ -97,7 +114,7 @@ a.btn-primary:active {
 
 footer.footer {
   width: 100%;
-  height: 40px;
+  height: 48px;
   background-color: #447ead;
   font-family: "Roboto", sans-serif;
 }
