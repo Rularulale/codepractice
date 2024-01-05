@@ -249,4 +249,7 @@ footer.footer .footer-text {
   .wrapper {
     max-width: 380px;
   }
+  .card .card-inside {
+    padding: 32px;
+  }
 }/*# sourceMappingURL=neutest-2.css.map */
