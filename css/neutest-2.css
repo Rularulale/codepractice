@@ -249,6 +249,9 @@ footer.footer .footer-text {
   .wrapper {
     max-width: 360px;
   }
+  .card {
+    box-shadow: 4px 12px 32px 0px rgb(145, 179, 208);
+  }
   .card .card-inside {
     padding: 32px;
   }
