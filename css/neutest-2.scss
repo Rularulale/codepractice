@@ -64,6 +64,7 @@ body {
   @include flex-container(row, space-around, center);
   max-width: 1000px;
   margin: 160px auto 200px;
+  
 }
 
 header.header {
@@ -297,7 +298,7 @@ footer.footer {
 
 @media screen and (max-width: 480px) {
   .wrapper {
-    max-width: 380px;
+    max-width: 360px;
   }
   .card .card-inside{
     padding: 32px;
